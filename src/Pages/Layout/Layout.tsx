@@ -15,17 +15,17 @@ const Layout = () => {
             <ul id="nav" className={`nav${open}`}>
                 <li>
                     <NavLink onClick={() => setOpen(!open)} exact to="/">
-                        Home
+                        <span className="nes-text is-primary">Home</span>
                     </NavLink>
                 </li>
                 <li>
                     <NavLink onClick={() => setOpen(!open)} to="/about">
-                        Sobre mi
+                        <span className="nes-text is-primary"> Sobre mi</span>
                     </NavLink>
                 </li>
                 <li>
                     <NavLink onClick={() => setOpen(!open)} to="/resume">
-                        Curriculum
+                        <span className="nes-text is-primary"> Curriculum</span>
                     </NavLink>
                 </li>
             </ul>

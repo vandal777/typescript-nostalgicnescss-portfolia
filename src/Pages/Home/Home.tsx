@@ -9,25 +9,27 @@ const Home = () => {
                         <p>Bienvenido a mi portfolio</p>
                         <p>Soy Leonardo Badilla.</p>
                     </h1>
-                    <h3>
-                        Soy un <span>Frontend developer</span> de Barcelona capaz de crear todo tipo de WebApp's utilizando <span>Javascript</span>.
-                        Navega por el Site clicando en el Header y conoce mas {/*<NavLink to="/about">Sobre mi</NavLink>*/}.
-                    </h3>
+                    <div className="nes-container is-rounded is-dark">
+                        <p>
+                            Soy un <span>Frontend developer</span> de Barcelona capaz de crear todo tipo de WebApp's utilizando
+                            <span>Javascript</span>.<br /> Navega por el Site clicando en el Header y conoce mas.
+                        </p>
+                    </div>
                     <hr />
                     <ul className="social">
                         <li>
                             <a rel="noopener noreferrer" target="_blank" href="https://twitter.com/vandaLbd">
-                                <i className="fa fa-twitter" />
+                                <i className="nes-icon twitter is-large" />
                             </a>
                         </li>
                         <li>
                             <a rel="noopener noreferrer" target="_blank" href="https://www.linkedin.com/in/leonardo-badilla">
-                                <i className="fa fa-linkedin" />
+                                <i className="nes-icon linkedin is-large" />
                             </a>
                         </li>
                         <li>
                             <a rel="noopener noreferrer" target="_blank" href="https://github.com/vandal777">
-                                <i className="fa fa-github" />
+                                <i className="nes-icon github is-large" />
                             </a>
                         </li>
                     </ul>

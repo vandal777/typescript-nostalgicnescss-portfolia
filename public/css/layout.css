@@ -33,7 +33,7 @@ header {
    height: 100%;
    min-height: 500px;
    width: 100%;
-   background: #161415 url(../images/header-background.jpg) no-repeat top center;
+   background: #161415 url(../images/header-background-2.jpg) no-repeat top center;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    text-align: center;
@@ -58,13 +58,14 @@ header .banner {
 
 header .banner-text { width: 100%; }
 header .banner-text h1 {
+   font-size: 40px;
    color: #fff;
    letter-spacing: -2px;
    margin: 0 auto 18px auto;
    text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
 }
 header .banner-text h3 {
-   font: 18px/1.9em 'librebaskerville-regular', serif;
+   font: 18px/1.9em 'Press Start 2P';
    color: #A8A8A8;
    margin: 0 auto;
    width: 70%;
@@ -129,7 +130,7 @@ header .scrolldown a:hover { color: #11ABB0; }
 
 /* nav-wrap */
 #nav-wrap {
-   font: 12px 'opensans-bold', sans-serif;
+   font: 12px 'Press Start 2P';
    width: 100%;
    text-transform: uppercase;
    letter-spacing: 2.5px;
@@ -145,13 +146,13 @@ header .scrolldown a:hover { color: #11ABB0; }
 #nav-wrap > a.mobile-btn { display: none; }
 
 ul#nav {
-   min-height: 48px;
+   min-height: 70px;
    width: auto;
 
    /* center align the menu */
    text-align: center;
-   background-color: #2b2b2b;
-}
+   background-color: white;
+   border-bottom: 4px solid #D3D3D3;}
 ul#nav li {
    position: relative;
    list-style: none;
@@ -163,13 +164,13 @@ ul#nav li {
 ul#nav li a {
 
 /* 8px padding top + 8px padding bottom + 32px line-height = 48px */
-
+   font-size: 20px;
    display: inline-block;
-   padding: 8px 13px;
-   line-height: 32px;
+   padding: 8px 30px;
+   line-height: 47px;
 	text-decoration: none;
    text-align: left;
-   color: #fff;
+   color: black;
 
 	-webkit-transition: color .2s ease-in-out;
 	-moz-transition: color .2s ease-in-out;
