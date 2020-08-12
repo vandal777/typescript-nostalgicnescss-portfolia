@@ -5,14 +5,14 @@ const Home = () => {
         <header id="home">
             <div className="row banner">
                 <div className="banner-text">
-                    <h1 className="responsive-headline">
-                        <p>Bienvenido a mi portfolio</p>
-                        <p>Soy Leonardo Badilla.</p>
+                    <h1 className="responsive-headline" style={{ textTransform: 'uppercase' }}>
+                        <p>bienvenido a mi portfolio</p>
+                        <p>soy leonardo badilla</p>
                     </h1>
                     <div className="nes-container is-rounded is-dark">
-                        <p>
-                            Soy un <span>Frontend developer</span> de Barcelona capaz de crear todo tipo de WebApp's utilizando
-                            <span>Javascript</span>.<br /> Navega por el Site clicando en el Header y conoce mas.
+                        <p style={{ textTransform: 'uppercase' }}>
+                            un <span>frontend developer</span> de barcelona, capaz de crear todo tipo de webapp's utilizando
+                            <span> javascript</span>.<br /> navega por el site clicando en el header y conoce más
                         </p>
                     </div>
                     <hr />

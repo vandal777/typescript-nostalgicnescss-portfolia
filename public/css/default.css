@@ -193,18 +193,18 @@ p img {
     margin: 0;
 }
 p.lead {
-    font: 19px/36px 'opensans-light', sans-serif;
+    font: 19px/36px 'Press Start 2P';
     margin-bottom: 18px;
 }
 
 /* for 'em' and 'strong' tags, font-size and line-height should be same with
 the body tag due to rendering problems in some browsers */
 em {
-    font: 15px/30px 'opensans-italic', sans-serif;
+    font: 15px/30px 'Press Start 2P';
 }
 strong,
 b {
-    font: 15px/30px 'opensans-bold', sans-serif;
+    font: 15px/30px 'Press Start 2P';
 }
 small {
     font-size: 11px;
@@ -495,7 +495,7 @@ dd {
     padding: 0;
 }
 .pagination .page-numbers {
-    font: 15px/18px 'opensans-bold', sans-serif;
+    font: 15px/18px 'Press Start 2P';
     display: inline-block;
     padding: 6px 10px;
     margin-right: 3px;
@@ -553,7 +553,7 @@ button,
 input[type='submit'],
 input[type='reset'],
 input[type='button'] {
-    font: 16px/30px 'opensans-bold', sans-serif;
+    font: 16px/30px 'Press Start 2P';
     background: #11abb0;
     display: inline-block;
     text-decoration: none;
@@ -659,7 +659,7 @@ textarea {
 
 label,
 legend {
-    font: 16px/24px 'opensans-bold', sans-serif;
+    font: 16px/24px 'Press Start 2P';
     margin: 12px 0;
     color: #3d4145;
     display: block;
@@ -667,7 +667,7 @@ legend {
 label span,
 legend span {
     color: #8b9798;
-    font: 14px/24px 'opensans-regular', sans-serif;
+    font: 14px/24px 'Press Start 2P';
 }
 
 input[type='checkbox'],

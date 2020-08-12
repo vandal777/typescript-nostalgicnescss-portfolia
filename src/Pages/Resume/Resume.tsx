@@ -8,10 +8,41 @@ const Resume = () => {
             <div className="row work">
                 <div className="three columns header-col">
                     <h1>
-                        <span>Trabajo</span>
+                        <span>Experiencia laboral</span>
                     </h1>
                 </div>
                 <div className="nine columns main-col">
+                    <div className="row item">
+                        <div className="twelve columns">
+                            <h3>
+                                <a target="_blank" rel="noopener noreferrer" href="https://www.yaencontre.com">
+                                    TIENDEO.COM
+                                </a>
+                            </h3>
+                            <p className="info">
+                                Frontend Developer
+                                <br />
+                                <span>•</span>
+                                <em className="date">Junio 2019 — Presente</em>
+                            </p>
+                            <div className="nes-container with-title ">
+                                <p className="title">HyperLocal WebApp</p>
+                                <div className="lists">
+                                    <ul className="nes-list is-circle">
+                                        <li>
+                                            Creación de un SaaS con la finalidad de publicar campañas de publicidad en "Google Ads" y "Facebook Ads"
+                                        </li>
+                                        <li>Creación del proyecto en TypeScript con "Create-React-App"</li>
+                                        <li>Definición de las reglas de Linter con TSLint y Prettier</li>
+                                        <li>CI/CD con Gitlab CI y Jenkins</li>
+                                        <li>Integración con "Google Maps"</li>
+                                        <li>Diseño de componentes y funcionalidades con "Material-Ui"</li>
+                                        <li>Parte de un equipo Agile con Scrum/KANBAN siguiendo un tablero de Jira</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                     <div className="row item">
                         <div className="twelve columns">
                             <h3>
