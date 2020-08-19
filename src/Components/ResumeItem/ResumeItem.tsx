@@ -1,7 +1,7 @@
 import React from 'react';
 import { IWorkExperience } from '../../Pages/Resume/const';
 
-const ResumeItem = ({ name, url, jobPosition, period, project }: IWorkExperience) => {
+const ResumeItem: React.FC<IWorkExperience> = ({ name, url, jobPosition, period, project }) => {
     return (
         <div className="row item">
             <div className="twelve columns">

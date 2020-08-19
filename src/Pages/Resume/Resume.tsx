@@ -5,8 +5,6 @@ import { WORK_INFO } from './const';
 const Resume = () => {
     return (
         <section id="resume">
-            {/* Work
-    ----------------------------------------------- */}
             <div className="row work">
                 <div className="three columns header-col">
                     <h1>
@@ -18,9 +16,7 @@ const Resume = () => {
                         <ResumeItem name={item.name} jobPosition={item.jobPosition} period={item.period} project={item.project} url={item.url} />
                     ))}
                 </div>
-                {/* main-col end */}
-            </div>{' '}
-            {/* End Work */}
+            </div>
             <div className="row education">
                 <div className="three columns header-col">
                     <h1>
@@ -101,8 +97,7 @@ const Resume = () => {
                             </p>
                             <p>Curso de programación con ReactJS con Redux y ES6 en el cual desarrolle mi primera aplicación con ReactJS </p>
                         </div>
-                    </div>{' '}
-                    {/* item end */}
+                    </div>
                     <div className="row item" style={{ padding: '0px 0px 40px 0px' }}>
                         <div className="twelve columns">
                             <h3>
