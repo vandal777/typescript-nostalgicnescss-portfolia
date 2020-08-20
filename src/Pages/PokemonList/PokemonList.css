@@ -1,0 +1,10 @@
+.item1 {
+    grid-area: item;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-areas: 'item item';
+    grid-gap: 10px;
+    padding: 10px;
+}

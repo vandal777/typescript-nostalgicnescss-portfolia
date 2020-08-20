@@ -6,6 +6,8 @@ import Home from './Pages/Home/Home';
 import About from './Pages/About/About';
 import Resume from './Pages/Resume/Resume';
 import 'nes.css/css/nes.min.css';
+import Pokemon from './Pages/Pokemon/Pokemon';
+import PokemonList from './Pages/PokemonList/PokemonList';
 
 function App() {
     return (
@@ -16,6 +18,8 @@ function App() {
                     <Route exact path="/" component={Home} />
                     <Route path="/about" component={About} />
                     <Route path="/resume" component={Resume} />
+                    <Route path="/pokemon/:id" component={Pokemon} />
+                    <Route path="/pokemonList" component={PokemonList} />
                 </Switch>
             </div>
         </React.Fragment>
