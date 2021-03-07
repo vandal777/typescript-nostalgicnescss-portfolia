@@ -19,4 +19,12 @@ export default class PokedexController extends BaseController {
             url: endpoint,
         });
     }
+
+    public getFirstGeneration() {
+        const endpoint = `${this.basePath}?limit=151`;
+        return this.MakeRequest({
+            method: 'GET',
+            url: endpoint,
+        });
+    }
 }

@@ -28,6 +28,11 @@ const Layout = () => {
                         <span className="nes-text is-primary"> Curriculum</span>
                     </NavLink>
                 </li>
+                <li>
+                    <NavLink onClick={() => setOpen(!open)} to="/pokemonlist">
+                        <span className="nes-text is-primary"> Pokedex</span>
+                    </NavLink>
+                </li>
             </ul>
         </nav>
     );
